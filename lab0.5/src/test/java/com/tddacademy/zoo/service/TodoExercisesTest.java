@@ -95,6 +95,7 @@ class TodoExercisesTest {
         // 3. Verify that animalRepository.save(simba) was called exactly once
         
         // Your code here:
+        // c
          simba.setId(1L);
          when(animalRepository.save(any(Animal.class))).thenReturn(simba);
 
