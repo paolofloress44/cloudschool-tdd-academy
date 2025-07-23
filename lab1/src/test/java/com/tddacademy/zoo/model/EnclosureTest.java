@@ -80,6 +80,7 @@ class EnclosureTest {
         // 3. Verify the exception message is "Enclosure type cannot be null or empty"
         
         // Your code here:
+        // Your code here:
          Long id = 1L;
          String name = "Lion Habitat";
          String type = null;
